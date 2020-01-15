@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $bolsas = Bolsa::all();
+        $bolsas = Bolsa::paginate(2);
         return view('home', compact('bolsas'));
     }
 }

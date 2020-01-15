@@ -28,6 +28,12 @@
 
 </div>
 
+    <div style="color:white;" class="row" >
+
+        {{$bolsas->links()}}
+
+    </div>
+
 </div>
 
 
